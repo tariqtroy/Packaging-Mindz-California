@@ -28,7 +28,7 @@ a:focus-visible,.button:focus-visible{outline:3px solid var(--accent);outline-of
 .nav-button{background:var(--accent);color:#0e0e0e!important;padding:10px 18px;border-radius:7px;font-weight:700}
 .nav-button:hover{background:#f3c650}
 
-.hero{position:relative;min-height:680px;display:flex;align-items:center;color:#fff;background:linear-gradient(105deg,rgba(10,10,10,.97) 35%,rgba(10,10,10,.55)),url("images/hero.svg") right center/cover no-repeat,#0e0e0e;overflow:hidden}
+.hero{position:relative;min-height:680px;display:flex;align-items:center;color:#fff;background:linear-gradient(105deg,rgba(10,10,10,.97) 35%,rgba(10,10,10,.55)),var(--hero-img) right center/cover no-repeat,#0e0e0e;overflow:hidden}
 .hero-overlay{position:absolute;inset:0;background:radial-gradient(circle at 15% 20%,rgba(224,169,31,.14),transparent 45%)}
 .hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.3fr .7fr;gap:55px;align-items:center;padding:100px 0}
 .eyebrow,.section-label{margin:0 0 10px;font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase}
@@ -117,7 +117,7 @@ h3{line-height:1.25}
   .nav{font-size:13px}
   .nav a:not(.nav-button){display:none}
   .nav{justify-content:flex-end}
-  .hero{min-height:620px;background:linear-gradient(rgba(10,10,10,.9),rgba(10,10,10,.85)),url("images/hero.svg") center/cover no-repeat,#0e0e0e}
+  .hero{min-height:620px;background:linear-gradient(rgba(10,10,10,.9),rgba(10,10,10,.85)),var(--hero-img) center/cover no-repeat,#0e0e0e}
   .section{padding:65px 0}
   .service-grid,.footer-grid{grid-template-columns:1fr}
   .hero-actions,.cta-actions{width:100%}
